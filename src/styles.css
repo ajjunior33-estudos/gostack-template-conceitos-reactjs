@@ -10,12 +10,16 @@ body {
 
 div {
   width: 100%;
-  margin: 20px;
+  margin: 15px auto;
 }
 
 div li {
+  margin: 15px auto;
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width:70%;
 }
 
 div li + li {
@@ -31,6 +35,11 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+}
+.addButton{
+  
+  position: absolute;
+  right: 15px;
 }
 
 div li button {
